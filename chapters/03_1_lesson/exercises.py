@@ -4,6 +4,17 @@
 
 print("********** Ch 3 Exercise 1 **********")
 
+def right_justify(input):
+    length = len(input)
+    print("length = ", length)
+    target = 70
+    spaces = target - length
+    space_string = ' '*spaces
+    print(space_string + input)
+
+right_justify('Monty')
+
+
 # Do your work for Exercise 1 here
 
 print("Ch 3 Exercise 1: Not implemented") # Delete this line when you write your code!
