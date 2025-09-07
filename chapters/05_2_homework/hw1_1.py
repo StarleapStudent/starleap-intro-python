@@ -4,22 +4,36 @@
 
 print("********** Homework Exercise 1 **********")
 
-# Do your work for Exercise 1 here
+def print_tic_tac_toe():
+    v_row = (' '*2 + '|')*2+' '*2
+    h_row = '-'*8
+    print(v_row)
+    print(h_row)
+    print(v_row)
+    print(h_row)
+    print(v_row)
 
-print("Homework Exercise 1: Not implemented") # Delete this line when you write your code!
-
+print_tic_tac_toe()
 
 
 print("********** Homework 1 Exercise 2 **********")
 
-# Do your work for Excercise 2 here
+first = input("Enter your first name: ")
+last = input("Enter your last name: ")
+print("Enter your date of birth:")
+month = input("Month? ")
+day = input("Day? ")
+year = input("Year? ")
 
-print("Homework 1 Exercise 2: Not implemented") # Delete this line when you write your code!
-
+print(f"{first} {last} was born on {month} {day}, {year}.")
 
 
 print("********** Homework 1 Exercise 3 **********")
 
-# Do your work for Excercise 3 here
+x = 5
+x = x + 6
+print(x)
 
-print("Homework 1 Exercise 3: Not implemented") # Delete this line when you write your code!
+y = 5
+y += 6
+print(y)

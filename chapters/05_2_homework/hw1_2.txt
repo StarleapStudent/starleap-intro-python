@@ -11,44 +11,44 @@ Type your answers directly into this file.
 The Python interpreter has strict rules for variable names. Which of the following are legal Python names? If the name is not legal, state the reason.  If you're not sure, try it in the interactive python interpreter.
 
 1. and
-
+invalid syntax
 2. _and
-
+legal
 3. var
-
+legal
 4. var1
-
+legal
 5. 1var
-
+SyntaxError: invalid decimal literal
 6. my-name
-
+SyntaxError: cannot assign to expression here.
 7. your_name
-
+legal
 8. COLOR
-
+legal
 
 ######################################################################
 # Exercise 1.10 – Types
 It is important that we know the type of the values stored in a variable so that we can use the correct operators (as we have already seen!). Python automatically infers the type from the value you assign to the variable. Write down the type of the values stored in each of the variables below. Pay special attention to punctuation: values are not always the type they seem!
 
 1. a = False
-
+bool
 2. b=3.7
-
+float
 3. c = ’Alex’
-
+string
 4. d = 7
-
+integer
 5. e = ’True’
-
+string
 6. f = 17
-
+int
 7. g = ’17’
-
+string
 8. h = True
-
+bool
 9. i = ’3.14159’
-
+string
 
 To verify your answers, you can use the interactive Python shell, but first try to do the exercise without help.
 >>> x = 100
@@ -62,10 +62,11 @@ Consider the following sentence:
 Alice saw the boy on the hill with the telescope.
 
 1. What is unclear about this sentence?
-
+I don't know if Alice has the telescope or the boy has the telescope.
 
 2. Write the sentence in two different ways, that clarifies both possible meanings of the sentence (hint: rewrite the sentence using extra words, commas, etc).
-
+- With the telescope, Alice saw the boy on the hill.
+- Alice saw a boy who had a telescope on the hill.
 
 3. The ambiguity illustrated by this sentence is known as “prepositional phrase attachment.” Think about this as you continue to learn how to program, and consider how programming languages are designed to avoid the ambiguity illustrated by this example!
 
@@ -82,15 +83,28 @@ inside out, starting with the inner-most expressions, like in arithmetic.
     c = False
 
 1. b and c
+True and False
+False
 
 2. b or c
+True or False
+True
 
 3. not a and b
+not (False) and (True)
+True and True
+True
 
 4. (a and b) or not c
+((False) and (True)) or not (False)
+(False) or True
+True
 
 5. not b and not (a or c)
-
+not (True) and not (False or False)
+False and not (False)
+False and True
+False
 
 ######################################################################
 # Exercise 1.13 – Conditionals
@@ -121,19 +135,19 @@ For each of the following job offers, write down the output that would be genera
 code. It is an important skill to be able to understand what a piece of code does without running it.
 
 1. location = "Massachusetts", pay = 50000
-
+No way
 
 2. location = "Iowa", pay = 50000
-
+No thanks, I can find something better.
 
 3. location = "California", pay = 50000
-
+I'll take it!
 
 4. location = "U.S.S. Enterprise", pay = 1
-
+So long, suckers!  I'll take it!
 
 5. location = "California", pay = 25000
-
+No thanks, I can find something better.
 
 
 ######################################################################
