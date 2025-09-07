@@ -1,6 +1,12 @@
 # 6.189 Lecture 3
 # check_for_vowels.py
 
+##### Instructions #####
+# Run this program and inspect the output.  Inspect the functions.  
+# Make sure you understand how they work.  Try some different inputs
+# to run_is_a_vowel and run_only_vowels, and see if the output is what 
+# you expect.
+
 def is_a_vowel(c):
     # check if c is a vowel
     if c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u':
@@ -13,11 +19,13 @@ def is_a_vowel(c):
         # c must not be a vowel; return False
         return False
 
+def run_is_a_vowel(c):
+    print(c, is_a_vowel(c))
 
 ## Testing
-print("u", is_a_vowel("u"))
-print("E", is_a_vowel("E"))
-print("x", is_a_vowel("x"))
+run_is_a_vowel("u")
+run_is_a_vowel("E")
+run_is_a_vowel("x")
 
 def only_vowels(phrase):
     # Takes a phrase, and returns a string of all the vowels
@@ -34,8 +42,11 @@ def only_vowels(phrase):
     # Code after a "return" doesn't print
     print("A line of code after the return!")
 
+def run_only_vowels(phrase):
+    print(phrase, only_vowels(phrase))
+
 # Testing the functions
-print("The vowels in the phrase 'tim the beAver' are:", only_vowels("tim the beAver"))
-print("HeLlO wOrLd!!", only_vowels("HeLlO wOrLd!!"))
-print("klxn", only_vowels("klxn")) # Expect no vowels from this one!
+run_only_vowels("tim the beAver")
+run_only_vowels("HeLlO wOrLd!!")
+run_only_vowels("klxn") # Expect no vowels from this one!
     
