@@ -17,11 +17,10 @@
 - 5.14 Exercises
 
 ## Examples
-  - **Link**: [check_for_vowels.py](check_for_vowels.py)
-  - **Link**: [conditional_examples.py](conditional_examples.py)
-  - **Link**: [height_example.py](height_example.py)
-  - **Link**: [loop_examples.py](loop_examples.py)
-  - **Link**: [throw_party.py](throw_party.py)
+  - **Link**: [5.6 conditional_examples.py](conditional_examples.py)
+  - **Link**: [5.8 recursion.py](recursion.py)
+  - **Link**: [5.11 height_example.py](height_example.py)
+  - **Link**: [5.11 throw_party.py](throw_party.py)
 
 ## Exercises
   - **Link**: [Instructions - exercises.md](./exercises.md)
