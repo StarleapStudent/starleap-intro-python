@@ -2,7 +2,7 @@
 ##### Template for Homework 1, Exercises 1-3 ######
 
 
-print("********** Homework Exercise 1 **********")
+print("********** Homework 1 Exercise 1 **********")
 
 def print_tic_tac_toe():
     v_row = (' '*2 + '|')*2+' '*2
