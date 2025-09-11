@@ -76,5 +76,12 @@ def draw_grid():
     draw_h_lines()
     do_four(draw_v_lines)
     draw_h_lines()
+    print(' - '*4+'T')
+    one_line = 'hello'
+    multi_line = '''
+    hi
+    I am Emily.
+    I love multi-line strings.
+    '''
 
 draw_grid()
