@@ -3,6 +3,20 @@
 
 print("********** Ch 7 Exercise 1 **********")
 
+# Pads an input value with spaces to a specified target length
+def pad_str(value, target):
+    in_str = str(value)
+    l = len(in_str)
+    diff = target - l
+    return in_str + ' '*diff
+
+# Prints a formatted table row with consistent spacing of columns
+def print_table_row(a, b, c, d, length=20):
+    print(pad_str(a, length), pad_str(b, length), pad_str(c, length), pad_str(d, length))
+
+# Do your work for Excercise 1 here.  
+# Make use of the provided functions above.
+
 import math
 
 def mysqrt(a):
@@ -15,15 +29,6 @@ def mysqrt(a):
         x = y
     return x
 
-def pad_str(input, target):
-    in_str = str(input)
-    l = len(in_str)
-    diff = target - l
-    return in_str + ' '*diff
-
-def print_table_row(a, b, c, d):
-    print(pad_str(a, 4), pad_str(b, 20), pad_str(c, 20), pad_str(d, 20))
-
 def test_square_root():
     print_table_row('a', 'mysqrt(a)', 'math.sqrt(a)', 'diff')
     for a in range(1, 10):
@@ -33,7 +38,6 @@ def test_square_root():
         print(pad_str(a, 4), pad_str(my_ans, 20), pad_str(ans, 20), pad_str(diff, 20))
 
 test_square_root()
-
 
 
 print("********** Ch 7 Exercise 2 **********")
