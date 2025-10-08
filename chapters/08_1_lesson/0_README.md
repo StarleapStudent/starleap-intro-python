@@ -17,7 +17,7 @@
 
 
 ## Examples
-  - **Link**: (./check_for_vowels.py)
+  - **Link**: [check_for_vowels.py](./check_for_vowels.py)
 
 ## Exercises
   - **Link**: [Instructions - exercises.md](./exercises.md)
