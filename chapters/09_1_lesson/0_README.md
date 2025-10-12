@@ -11,7 +11,7 @@
  
 
 ## Resources
-  - **Link**: [words.txt](../../lib/words.txt)
+  - **Link**: [shared/words.txt](../../shared/words.txt)
 
 ## Exercises
   - **Link**: [Instructions - Exercises from 9.2](./exercises_1.md)
