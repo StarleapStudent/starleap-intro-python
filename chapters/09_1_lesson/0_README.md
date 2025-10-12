@@ -13,11 +13,8 @@
 ## Resources
   - **Link**: [words.txt](../../lib/words.txt)
 
-## Examples
-  - **Link**: [check_for_vowels.py](./check_for_vowels.py)
-
 ## Exercises
   - **Link**: [Instructions - Exercises from 9.2](./exercises_1.md)
   - **Link**: [Template - Exercieses from 9.2](./exercises_1.py)
 
-  - **Link**: [Instructions - Exercises from 9.7](./exercises_2.md) - No template for these.  Make python files according to the instructions.
+  - **Link**: [Instructions - Exercises from 9.7](./exercises_2.md) - Complete at least 1 of these.  There are no templates.  Make python files according to the instructions.
