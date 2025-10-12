@@ -86,8 +86,6 @@ print('''
 
 ''')
 
-print("Ch 8 Exercise 4: Not implemented") # Delete this line when you write your code!
-
 
 
 print("********** Ch 8 Exercise 5 **********")
